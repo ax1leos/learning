@@ -1,0 +1,14 @@
+# Виртуальные окружения
+.venv/
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Секреты и настройки
+.env
+
+# Мусор ОС
+.DS_Store
+Thumbs.db
