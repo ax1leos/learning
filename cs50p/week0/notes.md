@@ -20,6 +20,8 @@
 - print(f"{z:,}") - if z = 1000000 the program will print 1,000,000
 - print(f"{z:.2f}") - 2/3 will print 0.67 (2 decimal after the dot)
 - scope
+- replace(old, new) — заменяет ВСЕ вхождения. Третий аргумент (необязательный) ограничивает количество замен.
+- split() + join() — альтернатива: разбить строку на список и склеить заново через другой разделитель.
 
 ### My explanations (in my own words)
 
