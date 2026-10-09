@@ -19,7 +19,7 @@
 
 2. What is the difference between list and dict? In which cases should each be used?
 
- `list` — an ordered collection, accessed by position (index 0, 1, 2, ...).Use when: order matters, you have duplicates, you iterate through everything, you access by position. `dict` — a collection of key → value pairs, accessed by key (usually a string or number). Use when: you look things up by name/id, you want fast lookup by key, order isn't the point (though Python 3.7+ preserves insertion order).
+ `list` — an ordered collection, accessed by position (index 0, 1, 2, ...). Use when: order matters, you have duplicates, you iterate through everything, you access by position. `dict` — a collection of key → value pairs, accessed by key (usually a string or number). Use when: you look things up by name/id, you want fast lookup by key, order isn't the point (though Python 3.7+ preserves insertion order).
 
 3. What do break and continue do? How do they differ?
 
