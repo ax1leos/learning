@@ -28,7 +28,7 @@ It catches a specific error (like when a user types letters instead of numbers) 
 
 ## Problems solved
 
-- 
+- Fuel Gauge
 - 
 
 ## Breaking get_int
