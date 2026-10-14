@@ -19,7 +19,7 @@ def main():
         
     counts = {}
     for heads in results:
-        counts[heads] = counts.get(heads,1) + 1
+        counts[heads] = counts.get(heads,0) + 1
         
     print(f"Результаты {n_trials} экспериментов по {n_flips} бросков:\n")
     for heads in sorted(counts):
