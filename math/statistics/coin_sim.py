@@ -1,4 +1,5 @@
 import random
+import statistics
 
 def run_experiment(n_flips):
     """Бросает монету n_flips и возвращает число орлов. """
@@ -16,6 +17,11 @@ def main():
     for _ in range(n_trials):
         heads = run_experiment(n_flips)
         results.append(heads)
+        
+    mean_heads = statistics.mean(results)
+    stdev_heads = statistics.stdev(results)
+    print(f"Mean: {mean_heads:.2f}")
+    print(f"Stdev: {stdev_heads:.2f}")
         
     counts = {}
     for heads in results:

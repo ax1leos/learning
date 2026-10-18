@@ -25,3 +25,30 @@
 
 **Что осталось непонятным:**
 - Выведение формулы конечной через Лимиты где n стремится к плюс бесконечноти и преобразования нормального в формулу Пуасонна
+
+## Video 18 - (Geometric Distribution)
+
+**Главная идея:**
+Поиск вероятности, что успех произойдет на n-ную попытку среди испытаний Бернули. Ключевое, что именно на n-ную, а не просто среди n попыток.
+
+**Что я понял:**
+- Выведение формулы
+- Решение примера, что успех произойдет как минимум за 10 попыток. То есть нам нужно фактически 9 неудач подряд и все.
+
+**Что осталось непонятным:**
+- Ничего
+
+## Mean and stdev depend on n and p
+
+For a binomial distribution (coin flips):
+- **Mean** = n * p
+- **Stdev** = sqrt(n * p * (1 - p))
+
+Examples:
+- n=100, p=0.5: mean=50,   stdev=5
+- n=1000, p=0.5: mean=500,  stdev≈15.8 (bigger)
+- n=100, p=0.7: mean=70,   stdev≈4.58 (smaller than p=0.5 case)
+- p=1.0: stdev=0 (no variation at all)
+
+Key insight: stdev is largest when p = 0.5 (most "random"),
+and shrinks when the outcome becomes more predictable.
