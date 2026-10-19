@@ -47,3 +47,19 @@ See `vectors.py`:
 - `add(v, w)` — add two vectors.
 - `scale(k, v)` — multiply vector by a number.
 - `linear_combination(a, v, b, w)` — return a·v + b·w.
+
+## Video 3 — Linear transformations and matrices
+
+**Main idea:** A matrix is a rule for transforming space. The columns
+tell you where the basis vectors [1,0] and [0,1] land after the transformation.
+
+**Two questions answered:**
+
+1. What does the first column of a matrix show?
+   Coordinates of "i" basis after transformation.
+
+2. Why does matrix-vector multiplication give a*x + b*y?
+   Because it's a linear combination of the matrix columns:
+   x times first column + y times second column.
+   The columns are where basis vectors i and j land after transformation.
+   So the result is x steps along new i plus y steps along new j.
