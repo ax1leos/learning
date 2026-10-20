@@ -36,8 +36,5 @@
 
 ## Experiment
 
-<<<<<<< HEAD
 This line is added on the `main` branch.
-=======
 This line is added on the `experiments` branch.
->>>>>>> experiments
