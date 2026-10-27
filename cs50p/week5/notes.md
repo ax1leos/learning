@@ -1,4 +1,4 @@
-# CS50P Week 5 — Unit 
+# CS50P Week 5 — Unit Tests
 
 ## Lecture notes
 
